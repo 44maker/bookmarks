@@ -1,0 +1,148 @@
+{
+    "bookmarks": [
+        {
+            "title": "Pixian",
+            "description": "在线抠图",
+            "url": "https://pixian.ai/",
+            "category": "媒体工具"
+        },
+        {
+            "title": "cobalt",
+            "description": "支持bilibili、Youtube等视频下载",
+            "url": "https://cobalt.tools/",
+            "category": "媒体工具"
+        },
+        {
+            "title": "MyFreeMP3",
+            "description": "无损音乐下载&在线播放",
+            "url": "https://tools.liumingye.cn/music/#/",
+            "category": "媒体工具"
+        },
+        {
+            "title": "Picx",
+            "description": "[图床] Github一键托管",
+            "url": "https://picx.xpoet.cn/#/upload",
+            "category": "媒体工具"
+        },
+        {
+            "title": "Moeyy",
+            "description": "[图床] 图片：5MB",
+            "url": "https://moeyy.cn/img/",
+            "category": "媒体工具"
+        },
+        {
+            "title": "敖武的图床",
+            "description": "[图床] 图片：100M/不禁格式 | 视频：49M",
+            "url": "https://playground.z.wiki/img-cloud/index.html",
+            "category": "媒体工具"
+        },
+        {
+            "title": "24hbook",
+            "description": "[🌟超级推荐] 电子书下载，还有AI大纲",
+            "url": "https://24hbook.store/",
+            "category": "自我提升"
+        },
+        {
+            "title": "Json工具箱",
+            "description": "Json修复&对比",
+            "url": "https://codebeautify.org/json-fixer",
+            "category": "效率工具"
+        },
+        {
+            "title": "Quick Reference",
+            "description": "开发者速查表",
+            "url": "https://wangchujiang.com/reference/",
+            "category": "效率工具"
+        },
+        {
+            "title": "IT 工具箱",
+            "description": "",
+            "url": "https://fukit.cn/",
+            "category": "效率工具"
+        },
+        {
+            "title": "Temp Email",
+            "description": "临时邮件",
+            "url": "https://moeyy.cn/tempmail/",
+            "category": "效率工具"
+        },
+        {
+            "title": "短网址",
+            "description": "短链",
+            "url": "https://moeyy.cn/url",
+            "category": "效率工具"
+        },
+        {
+            "title": "IP地图",
+            "description": "直观地看到IP所在位置",
+            "url": "https://moeyy.cn/ip",
+            "category": "效率工具"
+        },
+        {
+            "title": "Snapdrop",
+            "description": "局域网传输",
+            "url": "https://moeyy.cn/drop/",
+            "category": "存储工具"
+        },
+        {
+            "title": "F4pan",
+            "description": "百度网盘速度快👍",
+            "url": "https://pan.b23.buzz/#/",
+            "category": "存储工具"
+        },
+        {
+            "title": "oaifree",
+            "description": "Chatgpt镜像 感谢始皇！[Linux.do专用]",
+            "url": "https://shared.oaifree.com/?temporary-chat=true",
+            "category": "GPT老师们"
+        },
+        {
+            "title": "Open WebUI",
+            "description": "Chatgpt镜像 最新Openai模型",
+            "url": "https://chat.fyshark.com/",
+            "category": "GPT老师们"
+        },
+        {
+            "title": "llama-3.1-405b-instruct",
+            "description": "Llama 3.1 最新模型",
+            "url": "https://cnmksjs-nextchat.hf.space/",
+            "category": "GPT老师们"
+        },
+        {
+            "title": "DeepSeek",
+            "description": "开源模型",
+            "url": "https://chat.deepseek.com/",
+            "category": "GPT老师们"
+        },
+        {
+            "title": "v0.dev",
+            "description": "Vercel的前端AI",
+            "url": "https://v0.dev/",
+            "category": "GPT老师们"
+        },
+        {
+            "title": "Law AI",
+            "description": "AI 法律助手",
+            "url": "https://moeyy.cn/law-cn-ai",
+            "category": "GPT老师们"
+        },
+        {
+            "title": "Geospy",
+            "description": "上传图片，通过AI定位",
+            "url": "https://geospy.ai/",
+            "category": "GPT老师们"
+        },
+        {
+            "title": "华佗GPT",
+            "description": "AI赛博医生",
+            "url": "https://www.huatuogpt.cn/#/",
+            "category": "GPT老师们"
+        },
+        {
+            "title": "社工库",
+            "description": "",
+            "url": "https://taogefx.com/3574.html",
+            "category": "invisible"
+        }
+    ]
+}
