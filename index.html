@@ -7,8 +7,8 @@
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background-color: #f7f6f3;
-            color: #2f3437;
+            background-color: #f0f0f0; /* 更柔和的背景色 */
+            color: #333333; /* 更清晰的文字颜色 */
             margin: 0;
             padding: 0;
             display: flex;
@@ -27,7 +27,7 @@
             width: 100%;
             max-width: 800px;
             margin: 20px auto;
-            box-sizing: border-box; /* 确保内边距和边框在宽度内 */
+            box-sizing: border-box;
         }
 
         .search-bar input {
@@ -36,13 +36,13 @@
             padding: 8px 16px;
             font-size: 16px;
             border-radius: 8px;
-            border: 1px solid #d3d3d3;
+            border: 1px solid #cccccc; /* 更柔和的边框颜色 */
             outline: none;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
             transition: all 0.3s ease;
             box-sizing: border-box;
             background-color: #ffffff;
-            color: #2f3437;
+            color: #333333;
         }
 
         .bookmark-list {
@@ -51,7 +51,7 @@
             max-width: 1000px;
             margin: 0 auto;
             box-sizing: border-box;
-            overflow-x: hidden; /* 防止子元素导致的横向滚动 */
+            overflow-x: hidden;
         }
 
         .category-section {
@@ -63,17 +63,16 @@
             text-align: center;
             width: 100%;
             box-sizing: border-box;
-            overflow-x: hidden; /* 确保内容不超出容器 */
+            overflow-x: hidden;
             transition: background-color 0.3s, box-shadow 0.3s; /* 平滑过渡 */
         }
 
         .category-section h2 {
             margin: 0 0 20px 0;
-            color: #2f3437;
+            color: #333333;
             text-align: left;
             font-size: 18px;
             font-weight: 600;
-            text-decoration: none;
         }
 
         .cards-container {
@@ -86,34 +85,30 @@
         }
 
         .bookmark-card {
-            background-color: #f8f9fa;
+            background-color: #fafafa; /* 更柔和的卡片背景色 */
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
             padding: 16px;
             cursor: pointer;
             transition: transform 0.2s ease, box-shadow 0.2s ease;
             text-align: left;
-            text-decoration: none;
             display: flex;
             flex-direction: column;
             height: 100%;
             box-sizing: border-box;
         }
 
-        .bookmark-card h3, .bookmark-card p {
-            margin: 0;
-            text-decoration: none;
-            color: #E6EDD1;
-        }
-
         .bookmark-card h3 {
+            margin: 0;
             font-size: 16px;
+            color: #333333; /* 清晰的标题颜色 */
             margin-bottom: 8px;
         }
 
         .bookmark-card p {
+            margin: 0;
             font-size: 14px;
-            color: #6c757d;
+            color: #666666; /* 更柔和的文本颜色 */
         }
 
         .bookmark-card:hover {
@@ -127,17 +122,17 @@
         }
 
         ::-webkit-scrollbar-track {
-            background: #f1f1f1;
+            background: #e0e0e0;
             border-radius: 4px;
         }
 
         ::-webkit-scrollbar-thumb {
-            background-color: #bbb;
+            background-color: #aaaaaa;
             border-radius: 4px;
         }
 
         ::-webkit-scrollbar-thumb:hover {
-            background: #888;
+            background: #888888;
         }
 
         /* Mobile Styles */
@@ -200,7 +195,7 @@
             .search-bar input {
                 background-color: #1e1e1e;
                 color: #e0e0e0;
-                border: 1px solid #555555;
+                border: 1px solid #444444; /* 调整后的边框颜色 */
             }
 
             .category-section {
@@ -219,7 +214,7 @@
             }
 
             .bookmark-card p {
-                color: #a0a0a0;
+                color: #bbbbbb; /* 更柔和的文本颜色 */
             }
 
             ::-webkit-scrollbar-track {
@@ -231,7 +226,7 @@
             }
 
             ::-webkit-scrollbar-thumb:hover {
-                background: #888;
+                background: #888888;
             }
         }
     </style>
