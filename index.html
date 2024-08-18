@@ -245,20 +245,35 @@
         document.addEventListener('contextmenu', function(e) {
             e.preventDefault();
         });
+
         document.addEventListener('keydown', function(e) {
-            if (e.key === 'F12' || 
-                (e.ctrlKey && e.shiftKey && e.key === 'I') || 
-                (e.ctrlKey && e.key === 'U') || 
-                (e.ctrlKey && e.key === 'S') || 
-                (e.ctrlKey && e.key === 'P')) {
+            if (e.ctrlKey) {
+                const forbiddenKeys = ['u', 's', 'p', 'c', 'v', 'x', 'a'];
+                if (forbiddenKeys.includes(e.key.toLowerCase()) || e.key === 'F12' || (e.shiftKey && e.key.toLowerCase() === 'i')) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    return false;
+                }
+            }
+
+            if (e.key === 'F12') {
                 e.preventDefault();
+                e.stopPropagation();
+                return false;
             }
         });
+
         (function() {
             function detectDevTools() {
                 const threshold = 160;
                 const widthThreshold = window.outerWidth - window.innerWidth > threshold;
                 const heightThreshold = window.outerHeight - window.innerHeight > threshold;
+                
+                if (widthThreshold || heightThreshold) {
+
+                    window.close();
+                    window.location = "about:blank";
+                }
             }
 
             setInterval(detectDevTools, 1000);
