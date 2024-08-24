@@ -67,6 +67,12 @@
             "category": "效率工具"
         },
         {
+            "title": "URLyzer",
+            "description": "网站元数据提取器",
+            "url": "https://urlyzer.com/zh/get-metadata-from-url",
+            "category": "效率工具"
+        },
+        {
             "title": "Temp Email",
             "description": "临时邮件",
             "url": "https://moeyy.cn/tempmail/",
