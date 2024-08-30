@@ -189,46 +189,45 @@
             -webkit-transform: scale(1);
         }
 
-        /* Dark mode styles */
         @media (prefers-color-scheme: dark) {
             body {
                 background-color: #121212;
                 color: #e0e0e0;
             }
-
+        
             .search-bar input {
                 background-color: #1e1e1e;
-                color: #e0e0e0;
-                border: 1px solid #444444; /* 调整后的边框颜色 */
+                color: #ffffff; /* 提高文本对比度 */
+                border: 1px solid #555555; /* 调整后的边框颜色 */
             }
-
+        
             .category-section {
                 background-color: #1f1f1f;
-                box-shadow: 0 2px 4px rgba(255, 255, 255, 0.05);
+                box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* 提高阴影对比度 */
             }
-
+        
             .category-section h2 {
                 color: #ffffff;
             }
-
+        
             .bookmark-card {
-                background-color: #242424;
-                color: #e0e0e0;
-                box-shadow: 0 2px 4px rgba(255, 255, 255, 0.05);
+                background-color: #2a2a2a; /* 更深的卡片背景色 */
+                color: #ffffff; /* 提高卡片内文本对比度 */
+                box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* 提高阴影对比度 */
             }
-
+        
             .bookmark-card p {
-                color: #bbbbbb; /* 更柔和的文本颜色 */
+                color: #cccccc; /* 提高文本对比度 */
             }
-
+        
             ::-webkit-scrollbar-track {
                 background: #3a3a3a;
             }
-
+        
             ::-webkit-scrollbar-thumb {
                 background-color: #555555;
             }
-
+        
             ::-webkit-scrollbar-thumb:hover {
                 background: #888888;
             }
@@ -318,7 +317,7 @@
                     bookmarkList.appendChild(categorySection);
                 }
 
-                if (category === 'invisible' && !searchTerm) {
+                if (category === '🔒' && !searchTerm) {
                     categorySection.style.display = 'none';
                 }
             });
