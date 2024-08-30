@@ -97,27 +97,15 @@
             "category": "存储工具"
         },
         {
-            "title": "F4pan",
-            "description": "百度网盘速度快👍",
-            "url": "https://pan.b23.buzz/#/",
-            "category": "存储工具"
-        },
-        {
             "title": "oaifree",
             "description": "Chatgpt镜像 感谢始皇！[Linux.do专用]",
             "url": "https://shared.oaifree.com/?temporary-chat=true",
             "category": "GPT老师们"
         },
         {
-            "title": "Open WebUI",
-            "description": "Chatgpt镜像 最新Openai模型",
-            "url": "https://chat.fyshark.com/",
-            "category": "GPT老师们"
-        },
-        {
-            "title": "llama-3.1-405b-instruct",
-            "description": "Llama 3.1 最新模型",
-            "url": "https://cnmksjs-nextchat.hf.space/",
+            "title": "Aurorai",
+            "description": "Chatgpt，Claude等最新模型",
+            "url": "https://aurorai.cn/chat/",
             "category": "GPT老师们"
         },
         {
@@ -154,7 +142,13 @@
             "title": "社工库",
             "description": "",
             "url": "https://taogefx.com/3574.html",
-            "category": "invisible"
-        }
+            "category": "🔒"
+        },
+        {
+            "title": "订阅链接转换",
+            "description": "Clash 🐱",
+            "url": "https://sub.44maker.cn/",
+            "category": "🔒"
+        },
     ]
 }
